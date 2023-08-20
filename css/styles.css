@@ -13,20 +13,17 @@
   --color-dairy: #fcfcfc;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--color-slate);
-  background-color: var(--color-white);
-  font-size: 16px;
-  letter-spacing: 0.02em;
+.list {
+  list-style: none;
 }
 
 h1,h2,h3,h4,h5,h6,p {
-  margin-top: 0;
-  margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
 }
 
-  ul {
+ul {
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -34,16 +31,22 @@ h1,h2,h3,h4,h5,h6,p {
 
 img {
     display: block;
-    max-width: 100%;
-  height: auto;
 }
 
 .container {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-slate);
+  background-color: var(--color-white);
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 
 .list {
@@ -57,6 +60,7 @@ img {
 button {
   cursor: pointer;
 }
+
 
 /*========= Header ===========*/
 
